@@ -20,7 +20,7 @@ export default function WeatherApp() {
 
   return (
     <div className="WeatherApp">
-      <h2>WeatherAPP by delta</h2>
+      <h2>Weather APP</h2>
       <SearchBox updateInfo={updateInfo} />
       <InfoBox info={getWeatherInfo} />
     </div>
